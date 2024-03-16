@@ -1,3 +1,15 @@
 Setting Build Step: Commad line: 
 "Đường dẫn ứng dụng Python" "Đường dẫn file Python"
 C:\Users\ADMIN\anaconda3\python.exe E:\Unittest_Jenkins\test_sum.py
+
+
+
+Git Hub
+B1: Push lên git Hub
+B2: Setting webhooks ho GitHub (Dùng để khi code có sự thay đổi thị Jenkins sẽ tự build lại)
+B3: Tạo Item Jenkins để test
+- Trong Source Code Management > Git > URL: "Link Git repositories" 
+- Build Triggers > GitHub hook trigger for GITScm polling 
+- Build Steps > Execute Windows batch command > C:\Users\ADMIN\anaconda3\python.exe -m unittest test_sum.py
+Và Save
+B4: Build Now và kiểm tra trong Console Output
