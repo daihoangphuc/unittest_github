@@ -7,9 +7,11 @@ C:\Users\ADMIN\anaconda3\python.exe E:\Unittest_Jenkins\test_sum.py
 Git Hub
 B1: Push lên git Hub
 B2: Setting webhooks ho GitHub (Dùng để khi code có sự thay đổi thị Jenkins sẽ tự build lại)
+B3: Kích hoạt ngrok để đưa Localhost ra Internet
 B3: Tạo Item Jenkins để test
 - Trong Source Code Management > Git > URL: "Link Git repositories" 
 - Build Triggers > GitHub hook trigger for GITScm polling 
-- Build Steps > Execute Windows batch command > C:\Users\ADMIN\anaconda3\python.exe -m unittest test_sum.py
+- Build Steps > Execute Windows batch command > C:\Users\ADMIN\anaconda3\python.exe test_sum.py
+("C:\Users\ADMIN\anaconda3\python.exe" là đường dẫn ứng dụng Python, "test_sum.py" là đường dẫn file Python)
 Và Save
 B4: Build Now và kiểm tra trong Console Output
