@@ -1,9 +1,6 @@
 Setting Build Step: Commad line: 
 "Đường dẫn ứng dụng Python" "Đường dẫn file Python"
 C:\Users\ADMIN\anaconda3\python.exe E:\Unittest_Jenkins\test_sum.py
-
-
-
 Git Hub
 B1: Push Project lên git Hub
 B2: Setting webhooks ho GitHub (Dùng để khi code có sự thay đổi thì Jenkins sẽ tự build lại)
