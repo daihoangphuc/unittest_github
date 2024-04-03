@@ -1,4 +1,4 @@
-Setting Build Step: Commad line: 
+Setting Build Step: -> Commad line: 
 "Đường dẫn ứng dụng Python" "Đường dẫn file Python"
 C:\Users\ADMIN\anaconda3\python.exe E:\Unittest_Jenkins\test_sum.py
 
