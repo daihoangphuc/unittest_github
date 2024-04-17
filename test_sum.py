@@ -4,7 +4,7 @@ from sum import sum
 class TestSum(unittest.TestCase):  # Khai báo lớp kiểm thử, kế thừa từ unittest.TestCase
 
     def test_sum_positive_numbers(self):  # Định nghĩa test case kiểm tra với số dương
-        self.assertEqual(sum(1, 2), 2, "Kết quả phải là 3")
+        self.assertEqual(sum(1, 2), 3, "Kết quả phải là 3")
 
     def test_sum_negative_numbers(self):  # Định nghĩa test case kiểm tra với số âm
         self.assertEqual(sum(-1, -2), -3, "Kết quả phải là -3")  
